@@ -1,0 +1,37 @@
+[
+  {
+    "UserID": "User001",
+    "Email": "admin1@gmail.com",
+    "Password": "admin123",
+    "ID_CMS": "CMS001",
+    "Tipe": "seamless"
+  },
+  {
+    "UserID": "User002",
+    "Email": "reiz1668@gmail.com",
+    "Password": "admin123",
+    "ID_CMS": "CMS002",
+    "Tipe": "semi-manual"
+  },
+  {
+    "UserID": "User003",
+    "Email": "18221084@std.stei.itb.ac.id",
+    "Password": "admin123",
+    "ID_CMS": "CMS003",
+    "Tipe": "seamless"
+  },
+  {
+    "UserID": "User004",
+    "Email": "admin4@gmail.com",
+    "Password": "admin123",
+    "ID_CMS": "CMS004",
+    "Tipe": "semi-manual"
+  },
+  {
+    "UserID": "User005",
+    "Email": "admin5@gmail.com",
+    "Password": "admin123",
+    "ID_CMS": "CMS005",
+    "Tipe": "semi-manual"
+  }
+]

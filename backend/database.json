@@ -1,0 +1,32 @@
+[
+  {
+    "ID_CMS": "CMS001",
+    "Nama_CMS": "CMS Jakarta",
+    "Tipe": "seamless",
+    "Email": "cms001@example.com"
+  },
+  {
+    "ID_CMS": "CMS002",
+    "Nama_CMS": "CMS Bandung",
+    "Tipe": "semi-manual",
+    "Email": "cms002@example.com"
+  },
+  {
+    "ID_CMS": "CMS003",
+    "Nama_CMS": "CMS Surabaya",
+    "Tipe": "seamless",
+    "Email": "cms003@example.com"
+  },
+  {
+    "ID_CMS": "CMS004",
+    "Nama_CMS": "CMS Medan",
+    "Tipe": "semi-manual",
+    "Email": "cms004@example.com"
+  },
+  {
+    "ID_CMS": "CMS005",
+    "Nama_CMS": "CMS Bali",
+    "Tipe": "semi-manual",
+    "Email": "cms005@example.com"
+  }
+]
