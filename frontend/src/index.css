@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0b0f2b;
+  background-image: url('/public/backgrounds/background-playlist.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.overlay-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+  padding: 1rem;
+  color: #fff;
+}
+
+/* =======================
+   CARD
+========================= */
+.card {
+  background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 1rem;
+  color: #f0f0f0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+/* =======================
+   BUTTON
+========================= */
+.btn {
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-dark {
+  background-color: #0d6efd;
+  border: none;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background-color: #0a58ca;
+}
+
+.btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-outline-primary {
+  border-color: #0d6efd;
+  color: #0d6efd;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* =======================
+   FORM CONTROL (SEARCH)
+========================= */
+input.form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+input.form-control::placeholder {
+  color: #ccc;
+}
+
+/* =======================
+   VIDEO CARD
+========================= */
+.video-card {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.video-card video {
+  border-radius: 10px;
+  max-height: 160px;
+}
+
+/* =======================
+   BACKGROUND WRAPPER
+========================= */
+.bg-glass {
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+/* =======================
+   TEXT IMPROVEMENT
+========================= */
+.text-glow {
+  color: #ffffff;
+  text-shadow: 0 0 3px rgba(0, 191, 255, 0.6);
+}
+
+.order-id {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #d1e3ff;
+  word-break: break-all;
+}
+
+.order-date {
+  font-size: 0.9rem;
+  color: #ffc107;
+  font-weight: 500;
+}
+
+/* =======================
+   ICONS
+========================= */
+.trash-icon {
+  font-size: 1.2rem;
+  color: #dc3545;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.trash-icon:hover {
+  color: #bd2130;
+  transform: scale(1.2);
+}
+
+.video-title {
+  color: #212529 !important;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="file"],
+.modal-content input[type="date"],
+.modal-content select,
+.modal-content textarea {
+  background-color: rgba(255, 255, 255, 0.07);
+  color: #000;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+
+.modal-content input::placeholder,
+.modal-content textarea::placeholder {
+  color: #ccc;
+}
+
+.modal-content input:focus,
+.modal-content textarea:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #0dcaf0;
+  box-shadow: 0 0 0 0.2rem rgba(13, 202, 240, 0.25);
+  color: #000;
+}
